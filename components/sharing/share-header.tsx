@@ -11,10 +11,10 @@ export const ShareHeader: FC<ShareHeaderProps> = ({ session }) => {
   return (
     <div className="flex justify-between">
       <Link
-        href="https://www.chatbotui.com"
+        href="https://www.summarise.work"
         className="text-2xl font-bold hover:opacity-50"
       >
-        Chatbot UI
+        BT GPT UI
       </Link>
 
       <Link href={session ? "/chat" : "/login"}>

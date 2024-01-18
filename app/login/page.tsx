@@ -134,14 +134,14 @@ export default async function Login({
           Login
         </Button>
 
-        <Button
+        {/* <Button
           formAction={signUp}
           className="border-foreground/20 mb-2 rounded-md border px-4 py-2"
         >
           Sign Up
-        </Button>
+        </Button> */}
 
-        <div className="text-muted-foreground mt-1 flex justify-center text-sm">
+        {/* <div className="text-muted-foreground mt-1 flex justify-center text-sm">
           <span className="mr-1">Forgot your password?</span>
           <button
             formAction={handleResetPassword}
@@ -149,7 +149,7 @@ export default async function Login({
           >
             Reset
           </button>
-        </div>
+        </div> */}
 
         {searchParams?.message && (
           <p className="bg-foreground/10 text-foreground mt-4 p-4 text-center">
